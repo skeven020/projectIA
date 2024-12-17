@@ -7,4 +7,16 @@ public class menu : MonoBehaviour
     {
         SceneManager.LoadScene("Fase");
     }
+
+    public void Credito()
+    {
+        SceneManager.LoadScene("Creditos");
+    }
+
+    public void IrMenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
 }
+
+
